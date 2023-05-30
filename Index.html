@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+    <title>Desafio 1 - Desenvolva uma Lading Page</title>
+</head>
+<body>
+    <!--HERO-->
+    <div id="hero">
+        <h1 id="title-hero">Tradição em projetos de arquitetura</h1><br>
+        <p id="text-hero">Arquitetura residencial e comercial.</p>
+    </div>
+
+    <!--INFORMAÇÕES DA EMPRESA-->
+    <div id="infos">
+        <div>
+            <h1 class="numbers-infos">850</h1>
+            <p class="text-infos">empreendimentos construídos</p>
+        </div>
+
+        <div>
+            <h1 class="numbers-infos">40</h1>
+            <p class="text-infos">de mercado e experiência</p>
+        </div>
+
+        <div>
+            <h1 class="numbers-infos">2,000,000</h1>
+            <p class="text-infos">m² em projetos construídos</p>
+        </div>
+        
+    </div>
+
+    <!--HISTÓRIA DA EMPRESA-->
+    <div id="enterprise-history">
+        <div id="history">
+            <h1 id="history-title">Arquitetos com História e Experiência.</h1><br><br>
+            <p id="history-text">
+                Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
+                como principal proposta transformar em realidade os sonhos de<br>
+                seus clientes, criando projetos personalizados, unindo a tradição<br>
+                e a modernidade em nossos projetos.
+            </p>
+        </div>
+        <div id="image">
+            <img id="history-image" src="./img/img-history.svg" alt="">
+        </div>
+    </div>
+
+    <!--FORMULÁRIO-->
+    <div id="form">
+        <h1 id="form-title">Conheça mais sobre nossos serviços:</h1><br>
+
+        <form action="https://api.sheetmonkey.io/form/apXK12XsKSuN48m8GrzsZw" method="POST">
+            <input class="inputs" type="text" name="Name" placeholder="Nome" required><br>
+            <input class="inputs" type="text" name="Email" placeholder="E-mail" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+           
+            <button id="button" type="submit">Fale Conosco</button>
+        </form>
+    </div>
+    
+</body>
+</html>

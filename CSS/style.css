@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HERO */
+#hero {
+    background-color: #303030;
+    color: white;
+    padding: 206px 0px 150px 60px;
+}
+
+#title-hero {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+}
+
+#text-hero {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: normal;
+}
+
+
+/* INFORMÇÕES DA EMPRESA */
+#infos {
+    background-color:  #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 95px 0px 65px 170px;
+}
+
+.numbers-infos {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text-infos {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* HISTÓRIA DA EMPRESA */
+#enterprise-history {
+    background-color: #F9F9F9;
+    
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#history-title {
+    margin-top: 270px;
+    margin-left: 75px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px; 
+}
+
+#history-text {
+    margin-left: 75px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#history-image {
+    width: 510px;
+    height: 605px;
+    margin: 70px 54px 100px 64px;
+}
+
+
+/* FORMULÁRIO */
+#form {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+
+#form-title {
+    padding-top: 85px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    font-style: normal;
+}
+
+.inputs {
+    width: 500px;
+    font-size: 24px;
+    margin-bottom: 48px;
+    border-radius: 10px;
+    padding: 19px 0px 23px 30px;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    font-style: normal;
+}
+
+button {
+    background-color: #C07212;
+    border-radius: 10px;
+    color: white;
+    border-width: 0px;
+    padding: 22px 47px 22px 46px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 35px 0px 85px 0px;
+}
+
+button:hover {
+    background-color: #ca8128;
+    color: rgb(75, 73, 73);
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 10px 0px #dc953f66;
+    transition-duration: 0.5s;
+}
