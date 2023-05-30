@@ -1,4 +1,4 @@
-# desafio-dnc-lp
+# Desafio 1 - Resolução
 
 Link do site disponibilizado: https://teste-lading-page.netlify.app/
 
